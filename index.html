@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FreeMind Network Television</title>
+    <title>FreeMind Network TV</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -12,7 +12,8 @@
             align-items: center;
             height: 100vh;
             margin: 0;
-            background: #f4f4f4;
+            background: #152230; /* Navy background */
+            color: #fff; /* White text */
         }
         .container {
             text-align: center;
@@ -20,9 +21,11 @@
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            color: #152230; /* Navy text */
         }
         h1 {
             margin-bottom: 20px;
+            color: #D3633F; /* Orange for main heading */
         }
         video {
             width: 100%;
@@ -47,28 +50,28 @@
             padding: 10px 20px;
             border: none;
             border-radius: 4px;
-            background: #007BFF;
+            background: #43B085; /* Green for the button */
             color: #fff;
             cursor: pointer;
             transition: background 0.3s;
         }
         .subscribe-form input[type="submit"]:hover {
-            background: #0056b3;
+            background: #2a7b5a; /* Darker green for hover effect */
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>FreeMind Network TV</h1>
-        <video controls>
+        <h1>I WANT MY FN TV!</h1>
+        <video autoplay controls>
             <source src="https://raw.githubusercontent.com/cowabungajohnny3/fntv-landing-page/main/FNtvPromoVideo.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
-        <h2>COMING SOON</h2>
-        <form class="subscribe-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <h2>STREAMING SOON</h2>
+        <!-- <form class="subscribe-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
             <input type="email" name="email" placeholder="Enter your email" required>
             <input type="submit" value="Subscribe">
-        </form>
+        </form> -->
     </div>
 </body>
 </html>
